@@ -32,8 +32,8 @@ O código também incorpora um display LCD I2C para exibir informações locais 
 
 **Simulação no Wokwi**
 
-Você pode simular o projeto no Wokwi, uma plataforma de simulação online. [Clique aqui para acessar a simulação](https://wokwi.com/projects/381919181233204225). Certifique-se de ajustar as configurações de pinos conforme necessário na plataforma de simulação.
-
+Você pode simular o projeto no Wokwi, uma plataforma de simulação online. [Clique aqui para acessar a simulação](https://wokwi.com/projects/381919403313250305). Certifique-se de ajustar as configurações de pinos conforme necessário na plataforma de simulação.
+                                                                                                               
 **Observações Importantes:**
 - Certifique-se de configurar corretamente as credenciais Wi-Fi e o endereço do broker MQTT.
 - Este README fornece uma visão geral básica do projeto. Consulte o código-fonte para detalhes adicionais e ajustes específicos.
