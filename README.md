@@ -1,5 +1,5 @@
 # Projeto de Monitoramento e Controle de Ambiente com ESP32 e MQTT
-
+https://youtu.be/-sYkNRkb33Q - link do vídeo</br>
 Este projeto utiliza um microcontrolador ESP32 para monitorar e controlar o ambiente, incluindo a leitura de temperatura, umidade, luminosidade, além de permitir o controle remoto de um dispositivo conectado.
 
 Problema de Saúde Abordado
