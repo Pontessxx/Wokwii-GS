@@ -2,17 +2,21 @@
 https://youtu.be/-sYkNRkb33Q - link do vídeo</br>
 Este projeto utiliza um microcontrolador ESP32 para monitorar e controlar o ambiente, incluindo a leitura de temperatura, umidade, luminosidade, além de permitir o controle remoto de um dispositivo conectado.
 
-Problema de Saúde Abordado
+## integantes
+- RM:98237- Guilherme Brazioli
+- RM:98036-Henrique Pontes Olliveira
+
+## Problema de Saúde Abordado
 
 Este projeto foi implementado para a fototerapia, com o sistema iot podemos utilizar protocolos MQTT para realizar graficos visto o tempo e a temperatura do ambiente onde o bebe necessitou o tratamento, futuramente é possivel implementar um machine learning para aprender e otimizar a fototerapia para cada bebe.
 
-**Solução Proposta**
+## **Solução Proposta**
 
 O ESP32 é utilizado para coletar dados de sensores DHT22 (temperatura e umidade) e um LDR (sensor de luminosidade). Os dados são publicados em tópicos MQTT para permitir o monitoramento remoto. Além disso, o projeto inclui a capacidade de controlar um dispositivo (como um LED) remotamente via MQTT.
 
 O código também incorpora um display LCD I2C para exibir informações locais e indicar visualmente o estado do ambiente.
 
-**Configuração e Execução**
+## **Configuração e Execução**
 
 1. **Configuração do Ambiente:**
    - Certifique-se de ter o Arduino IDE instalado com suporte para ESP32.
@@ -30,7 +34,7 @@ O código também incorpora um display LCD I2C para exibir informações locais 
    - Abra o monitor serial para verificar as leituras dos sensores e os status de conexão MQTT.
    - Utilize um cliente MQTT para monitorar e controlar o ambiente através dos tópicos definidos.
 
-**Simulação no Wokwi**
+## **Simulação no Wokwi**
 
 Você pode simular o projeto no Wokwi, uma plataforma de simulação online. [Clique aqui para acessar a simulação](https://wokwi.com/projects/381919403313250305). Certifique-se de ajustar as configurações de pinos conforme necessário na plataforma de simulação.
                                                                                                                
